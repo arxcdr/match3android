@@ -386,6 +386,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1133650491}
+  - component: {fileID: 1133650492}
   m_Layer: 0
   m_Name: _Match3
   m_TagString: Untagged
@@ -407,6 +408,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1133650492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133650490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3899220cc4d0db84b8f6f2642c862cac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardLayout:
+    grid: {fileID: 0}
+    rows:
+    - row: 000000000000000000
+    - row: 000000000000000000
+    - row: 000000000000000000
+    - row: 000000000000000000
+    - row: 000000000000000000
+    - row: 000000000000000000
+    - row: 000000000000000000
+    - row: 000000000000000000
+    - row: 000000000000000000
+    - row: 000000000000000000
+    - row: 000000000000000000
+    - row: 000000000000000000
+    - row: 000000000000000000
+    - row: 000000000000000000
+  pieces:
+  - {fileID: 7086606104257924489, guid: 34f6321b206afab459fb7c8d37989456, type: 3}
+  - {fileID: -7105913188517789750, guid: 34f6321b206afab459fb7c8d37989456, type: 3}
+  - {fileID: -8166966530815011495, guid: 34f6321b206afab459fb7c8d37989456, type: 3}
+  - {fileID: -488248382649040768, guid: 34f6321b206afab459fb7c8d37989456, type: 3}
+  - {fileID: 5528609633622603068, guid: 2c97df9695607b04c92ec362851a0890, type: 3}
 --- !u!1 &1292212273
 GameObject:
   m_ObjectHideFlags: 0
